@@ -7,6 +7,12 @@
 #include <Jolt/Core/Profiler.h>
 #include <Jolt/Core/FPException.h>
 
+#include <chrono>
+#include <thread>
+
+// 添加这行来启用用户定义字面量
+using namespace std::chrono_literals;
+
 JPH_SUPPRESS_WARNINGS_STD_BEGIN
 #include <algorithm>
 JPH_SUPPRESS_WARNINGS_STD_END
